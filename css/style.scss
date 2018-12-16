@@ -71,24 +71,13 @@ h1,h2,h3,h4,h5,h6 {
     color: #22292e;
 }
     .name {
-        font-size: 3rem;
+        font-size: 2.3rem;
         font-weight: 700;
         letter-spacing: 4px;
         background: url(../img/bg.jpg);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        animation: moveBg 90s linear infinite;
-        -webkit-animation: moveBg 90s linear infinite;
-    }
-    @keyframes moveBg {
-        0% {
-            background-position: 0% 30%;
-        } 
-        
-        100% {
-            background: 100% 50%;
-        }
     }
     .description {
         font-weight: 300;
