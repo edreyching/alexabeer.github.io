@@ -232,6 +232,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 800px) {
   #container .background-title {
     padding: 2rem 0; }
+  #container .name {
+    font-size: 2rem; }
   #container .description {
     font-size: .9rem; }
   #contact .contact-inner {
