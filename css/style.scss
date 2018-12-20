@@ -75,6 +75,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #808c99;
 }
     .name {
+        text-align: center;
         color: #c69;
         font-size: 2rem;
         font-weight: 700;
@@ -118,17 +119,17 @@ h1,h2,h3,h4,h5,h6 {
         letter-spacing: 1px;
     }
     .all-projects {
-    text-decoration: none;
-    color: #22292e;
+        text-decoration: none;
+        color: #808c99;
+        text-decoration: underline;
     &:hover {
         color: #c69;
-        text-decoration: underline;
     }
     }
     .view-project {
         font-size: 1rem;
         text-decoration: underline;
-        color: #333;
+        color: #808c99;
         letter-spacing: 1px;
         &:hover {
             color: #c69;
