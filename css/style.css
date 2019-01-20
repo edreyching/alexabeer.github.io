@@ -25,6 +25,7 @@ h5,
 h6 {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
+    margin: 0;
 }
 
 .wrapper {
@@ -47,7 +48,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 88vh;
     flex-direction: column;
 }
 
@@ -69,14 +70,20 @@ h6 {
 
 .navigation-bar {
     width: 100%;
+    left: 0;
+    right: 0;
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .nav-parent {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 9rem;
+    list-style: none;
+}
+.nav-parent li a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 0 1rem;
 }
