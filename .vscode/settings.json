@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": "Fira Code Regular"
+    "editor.fontFamily": "Fira Code Regular",
+    "editor.tabSize": 2
 }
